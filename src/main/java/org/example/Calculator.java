@@ -1,0 +1,29 @@
+package org.example;
+
+/**
+ * @author Alvaro
+ * @created 13/10/2026
+ */
+public class Calculator {
+    //variables shared by all "Calculator" objects
+    float PI = 3.14f;
+
+    public void doNothing(){}
+
+    public int sum(int num1, int num2){
+        return num1 + num2;
+    }
+    
+    public double sum(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public int square(int num){
+        return num * num;
+    }
+
+    public float square(float num){
+        return num * num;
+    }
+
+}
